@@ -19,3 +19,22 @@ You will need to run only
 cd mt7610u_wifi_sta_v3002_dpo_20130916
 make
 sudo make install
+
+
+
+sudo add-apt-repository ppa:yannubuntu/boot-repair
+sudo apt-get update
+        
+
+Technical details about this PPA
+
+This PPA can be added to your system manually by copying the lines below and adding them to your system's software sources.
+Display sources.list entries for:
+
+deb http://ppa.launchpad.net/yannubuntu/boot-repair/ubuntu yakkety main 
+deb-src http://ppa.launchpad.net/yannubuntu/boot-repair/ubuntu yakkety main 
+
+Signing key:
+    1024R/60D8DA0B (What is this?) 
+Fingerprint:
+    3C48D16124B50277AF10D27F32B18A1260D8DA0B 
