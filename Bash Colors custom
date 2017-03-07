@@ -1,0 +1,9 @@
+drow out or print promt design 
+
+
+  A. root promt should be bright pink normal or grey
+  B. Print cwd and hostname
+  C. impletation what command can i use 
+
+export PS1="(\$( /usr/games/fortune )\[\e[1;36m\]\d \[\e[1;32m\]\t \[\e[1;33m\]\u@\[\e[1;35m\]\h:\w\$\[\e[0;31m\] "
+
